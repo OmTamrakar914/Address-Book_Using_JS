@@ -2,7 +2,7 @@ const AddressBook = require('./services/AddressBook');
 const Contact = require('./models/Contact');
 
 const addressBook = new AddressBook();
- console.log(Object.getOwnPropertyNames(AddressBook.prototype));
+// console.log(Object.getOwnPropertyNames(AddressBook.prototype));
 
 try {
     const contact1 = new Contact(
